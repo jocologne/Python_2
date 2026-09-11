@@ -16,3 +16,4 @@ def load(path: str):
         return data
     except Exception as error:
         print(f"Error: {error}")
+        return None
