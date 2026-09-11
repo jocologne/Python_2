@@ -1,8 +1,7 @@
 from load_csv import load
 
-
 def main():
-    print(load("life_expectancy_years.csv"))
+    data = load("population_total.csv")
 
 
 if __name__ == "__main__":
